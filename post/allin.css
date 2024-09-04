@@ -1,0 +1,125 @@
+/** ph ph-guitar**/
+.benji {
+  --main-color:210,163,44;
+  --accent:174,210,44;
+}
+
+/** ph ph-airplane-tilt**/
+.kohaku {
+  --main-color:162,126,210; 
+  --accent:126,132,210;
+}
+
+.jaie {
+  position:relative;
+  margin:10px auto;
+  width:350px;
+  padding:30px;
+  background:#ececec;
+  border-radius:0px 30px 30px 30px;
+  overflow:hidden;
+  font-family:'proxima nova reg';
+  font-size:15px;
+  color:#444;
+}
+.jaie-in {
+  position:relative;
+  border:1px solid rgba(var(--main-color));
+  border-radius:20px;
+}
+.jaie-rp {
+  font-family:'proxima nova reg';
+  color:#444;
+  font-size:15px;
+  text-align:justify;
+  padding:50px 60px 35px 50px;
+  line-height:19px;
+  min-height:100px;
+}
+.jaie-rp b {
+  font-family:'proxima nova bold';
+  color:rgba(var(--main-color));
+}
+.jaie-rp i {
+  position:relative;
+  font-weight:normal;
+}
+.jaie-rp i::before {
+  content:'';
+  display:block;
+  position:absolute;
+  bottom:-2px;
+  left:0px;
+  z-indez:-1;
+  height:5px;
+  width:100%;
+  background:rgba(var(--accent), 0.3);
+}
+.jaie-sym {
+  font-family:'Phosphor-Thin'!important;
+  position:absolute;
+  top:-15px; right:-15px;
+  background:#ececec;
+  width:60px;
+  height:60px;
+  border-radius:20px 20px 20px 20px;
+  border:1px solid rgba(var(--main-color));
+}
+.jaie-sym::before {
+  content:'';
+  width:20px;
+  height:1px;
+  background:rgba(var(--main-color));
+  transform:rotate(-45deg);
+}
+.jaie-sym-in {
+  position:absolute;
+  top:15px; left:15px;
+  font-family:"Phosphor-Thin" !important;
+  font-size:30px;
+  background: -webkit-linear-gradient(45deg, rgba(var(--main-color)), rgba(var(--accent)));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.jaie-date {
+  position:absolute;
+  top:142px; right:-60px;
+  width:150px;
+  font-family:'proxima nova bold';
+  line-height:100%;
+  font-size:14px;
+  letter-spacing:1px;
+  text-transform:uppercase;
+  color:#666;
+  transform:rotate(90deg);
+  background: -webkit-linear-gradient(45deg, rgba(var(--main-color)), rgba(var(--accent)));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.jaie-date::after {
+  content:'';
+  position:absolute;
+  top:8px; left:-27px;
+  width:15px;
+  height:1px;
+  background:rgba(var(--main-color));
+}
+.jaie-foot {
+  position:relative;
+  border-top:1px solid rgba(var(--main-color));
+  line-height:18px;
+  padding:20px;
+}
+.jaie-foot a {
+  font-family:'proxima nova bold';
+  text-transform:uppercase;
+  text-decoration:none;
+  color:#666;
+  font-size:12px;
+  margin-right:5px;
+}
+.jaie-foot a::before {
+  content:'@';
+  margin-right:3px;
+  color:rgba(var(--main-color))
+}
