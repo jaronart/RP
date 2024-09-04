@@ -1,0 +1,191 @@
+/* th th-macaron-o */
+.pascale {
+  --main-color: #BE9E58;
+  --accent: #8AB6C9;
+  --img: url(https://i.pinimg.com/564x/91/97/86/91978628deca9b912f6f7996a844adcc.jpg);
+}
+.pascale b {
+  text-shadow:none;
+}
+
+/* s s-mouse */
+.day {
+  --main-color: #9CA173;
+  --accent: #5D5562;
+  --img: url(https://i.pinimg.com/564x/f5/32/27/f53227feb202591ffa42b327f9414810.jpg);
+}
+
+/* th th-pirate-ship-o */
+.dean {
+  --main-color: #65837F;
+  --accent: #585365;
+  --img: url(https://i.pinimg.com/564x/dc/78/d2/dc78d2f622b742d3050717dc04a96c59.jpg);
+}
+
+/* s s-herb */
+.ryan {
+  --main-color: #9EA8A2;
+  --accent: #748B89;
+  --img: url(https://i.pinimg.com/564x/dc/38/da/dc38da1a66561ab1fceec8b190da637b.jpg);
+}
+
+.ryan b {
+  text-shadow:none;
+  filter:brightness(90%);
+}
+
+/* s s-door-knocker */
+.pepper {
+  --main-color: #A16767;
+  --accent: #63465C;
+  --img: url(https://i.pinimg.com/564x/46/a0/18/46a018d0042059141e55354f9851b321.jpg);
+  /* #780808 */
+}
+
+/* s s-sun */
+.col, .colin {
+  --main-color: #D08768;
+  --accent: #778AC7;
+  --img: url(https://wallpapercave.com/wp/wp6821549.jpg);
+}
+
+/* s s-cape-1 */
+.em, .emrys {
+  --main-color:#A78A98;
+  --accent:#8AA799;
+  --img:url(https://www.daniellekaren.com/wp-content/uploads/2021/01/Dried-Herbs.png);
+}
+
+/* s s-frog */
+.benji {
+  --main-color:#C8975D;
+  --accent:#9EAD91;
+  --img:url(https://cdn.pastemagazine.com/www/articles/mdr1000x_680.jpg);
+}
+ 
+/* s s-snowflake */
+ .luce {
+   --accent:#92b6b4;
+   --main-color:#8ba9bd;
+  --img: url(https://www.popsci.com/uploads/2021/07/16/alvaro-reyes-NOBH7Rq7ZN8-unsplash.jpg?auto=webp&width=1440&height=960.48289738431);
+ }
+.luce b {
+  filter:brightness(90%);
+}
+
+/* s s-hippogriff */
+.ira {
+   --accent:#ae88aa;
+   --main-color:#cf648a;
+  --img: url(https://i.pinimg.com/736x/34/7a/68/347a681f0b0b69d2dd52f9fa6a475720.jpg);
+}
+
+.jefi {
+  position:relative;
+  width:440px;
+  margin:20px auto;
+  border:1px solid #ccc;
+  padding:30px;
+  color:#555;
+  line-height:100%;
+}
+.jefi-bg {
+  position:absolute;
+  top:0px; left:0px;
+  width:100%;
+  height:100%;
+  background:var(--img);
+  background-size:cover;
+  background-position:center center;
+  filter:grayscale(100%) brightness(105%) blur(5px);
+  opacity:0.05;
+  z-index:0;
+}
+.jefi-cbg {
+  position:absolute;
+  top:0px; left:0px;
+  width:100%;
+  height:100%;
+  background:linear-gradient(to bottom right, var(--main-color), var(--accent));
+  opacity:0.1;
+  z-index:0;
+}
+.jefi-in {
+  position:relative;
+  border:1px solid var(--accent);
+}
+.jefi-head {
+  position:relative;
+  height:80px;
+  border-bottom:1px solid var(--accent);
+  width:100%;
+}
+.jefi-head::after {
+  content:'';
+  position:absolute;
+  top:0px; right:80px;
+  width:1px;
+  height:80px;
+  background:var(--accent);
+}
+.jefi-sym {
+  position:absolute;
+  top:20px; right:20px;
+  font-size:40px;
+  color:var(--main-color);
+}
+.jefi-date {
+  position:absolute;
+  top:22px; left:30px;
+  font-size:35px;
+  font-family:'Nunito', arial, sans-serif;
+  font-weight:200;
+  text-transform:lowercase;
+  text-shadow:0px 0px 1px rgba(0,0,0,0.1);
+  line-height:100%;
+}
+.jefi-date span {
+  font-size:25px;
+  color:var(--main-color);
+}
+.jefi-rp {
+  padding:40px 50px;
+  font-family:'nunito', arial, sans-serif;
+  font-weight:400;
+  font-size:16px;
+  line-height:24px;
+  text-align:justify;
+}
+.jefi-rp b {
+  font-weight:600;
+  color:var(--main-color);
+  text-shadow:0px 0px 1px rgba(0,0,0,0.1);
+}
+.jefi-tag {
+  font-family:'Nunito', arial, sans-serif;
+  padding:10px 20px;
+  text-align:right;
+  border-top:1px solid var(--accent);
+  font-size:12px;
+  line-height:20px;
+}
+.jefi-tag a {
+  color:#555;
+  font-weight:600;
+  text-decoration:none;
+  text-shadow:0px 0px 1px rgba(0,0,0,0.1);
+}
+.jefi-tag a:before {
+  content:'#';
+  color:var(--main-color);
+  margin-right:5px;
+  text-shadow:0px 0px 1px rgba(0,0,0,0.1);
+}
+.jefi-rp hr {
+  width: 100%;
+  height:1px;
+  background:var(--accent);
+  margin:20px 0px;
+  box-shadow:none;
+  border:none;
+}
