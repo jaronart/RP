@@ -1,3 +1,4 @@
+
   .emrys {
     --main-color:#a08090;
     --accent:#80A091;
@@ -49,7 +50,7 @@
     left:139px;
     border-radius:100%;
     border:1px solid transparent;
-    border-left:1px solid #e7e7e7;
+    border-left:1px solid #eee;
     transform:rotate(-25deg);
   }
   .jhid-circ2 {
@@ -61,7 +62,7 @@
     left:139px;
     border-radius:100%;
     border:1px solid transparent;
-    border-right:1px solid #e7e7e7;
+    border-right:1px solid #eee;
     transform:rotate(25deg);
   }
   .jhid-star {
@@ -80,7 +81,7 @@
     font-size: 25px;
     line-height: 25px;
     padding: 10px;
-    color: #e7e7e7;
+    color: #eee;
   }
   .jhid-star:before {
     content:'';
@@ -90,7 +91,7 @@
     left:22px;
     width:1px;
     height:15px;
-    background:#e7e7e7;
+    background:#eee;
   }
   .jhid-circ:before {
     content:'';
@@ -98,7 +99,7 @@
     width:100px;
     height:0px;
     border:1px solid transparent;
-    border-top:1px solid #e7e7e7;
+    border-top:1px solid #eee;
     position:absolute;
     top:48px; left:-97px;
     transform:rotate(25deg);
@@ -109,7 +110,7 @@
     width:70px;
     height:0px;
     border:1px solid transparent;
-    border-top:1px solid #e7e7e7;
+    border-top:1px solid #eee;
     position:absolute;
     top:107px; left:-66px;
     transform:rotate(-10deg);
@@ -120,7 +121,7 @@
     width:100px;
     height:0px;
     border:1px solid transparent;
-    border-top:1px solid #e7e7e7;
+    border-top:1px solid #eee;
     position:absolute;
     top:48px; right:-97px;
     transform:rotate(-25deg);
@@ -131,14 +132,14 @@
     width:70px;
     height:0px;
     border:1px solid transparent;
-    border-top:1px solid #e7e7e7;
+    border-top:1px solid #eee;
     position:absolute;
     top:107px; right:-66px;
     transform:rotate(10deg);
   }
   .jhid-icon {
     font-size:30px;
-    color:#e7e7e7;
+    color:#eee;
     width:100%;
     text-align:center;
   }
@@ -155,7 +156,7 @@
     font-size:15px;
     text-align:center;
     line-height:100%;
-    color:#e7e7e7;
+    color:#eee;
   }
   .jhid-icon-in {
     position:absolute;
@@ -181,7 +182,7 @@
     width:140px;
     height:0px;
     border:1px solid transparent;
-    border-top:1px dashed #e7e7e7;
+    border-top:1px dashed #eee;
   }
   .jhid-ray:after {
     content:'';
@@ -193,7 +194,7 @@
     width:30px;
     height:0px;
     border:1px solid transparent;
-    border-top:1px dashed #e7e7e7;
+    border-top:1px dashed #eee;
   }
   .jhid-ray2 {
     position:absolute;
@@ -208,7 +209,7 @@
     width:140px;
     height:0px;
     border:1px solid transparent;
-    border-top:1px dashed #e7e7e7;
+    border-top:1px dashed #eee;
   }
   .jhid-ray2:after {
     content:'';
@@ -220,12 +221,12 @@
     width:30px;
     height:0px;
     border:1px solid transparent;
-    border-top:1px dashed #e7e7e7;
+    border-top:1px dashed #eee;
   }
   .jhid-rp {
     z-index:1;
     padding:50px 50px 40px 50px;
-    background:#e7e7e7;
+    background:#eee;
     border-radius:15px;
     color:#666;
     text-align:justify;
