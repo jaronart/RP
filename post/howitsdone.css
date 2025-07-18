@@ -225,7 +225,7 @@
   .jhid-rp {
     z-index:1;
     padding:50px 50px 40px 50px;
-    background:#eee;
+    background:#e7e7e7;
     border-radius:15px;
     color:#666;
     text-align:justify;
@@ -288,6 +288,11 @@
     border-bottom: 2px solid;
     border-image: linear-gradient(to right, var(--main-color), var(--accent));
     border-image-slice: 1;
+    transition:all 0.5s ease-in-out;
+  }
+  .jhid-rp a:hover {
+    color:var(--accent);
+    transition:all 0.5s ease-in-out;
   }
   .jhid-tag {
     font-size:15px;
