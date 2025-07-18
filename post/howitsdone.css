@@ -1,0 +1,336 @@
+  .emrys {
+    --main-color:#a08090;
+    --accent:#80A091;
+    --img:url(https://www.daniellekaren.com/wp-content/uploads/2021/01/Dried-Herbs.png);
+  }
+  .jhid-c {
+    font-family:whim, 'urbanist';
+    --unicode: '\e900';
+    width:430px;
+    margin:20px auto;
+    position:relative;
+    padding:30px 25px 25px 25px;
+    border-radius:20px;
+    overflow:hidden;
+    line-height:100%;
+  }
+  .jhid-bg {
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0px; left:0px;
+    background:var(--img);
+    background-size:cover;
+    background-position: center center;
+    filter:grayscale(100%);
+    opacity:0.05;
+    z-index:-1;
+  }
+  .jhid-cbg {
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0px; left:0px;
+    background:linear-gradient(to bottom, var(--main-color), var(--accent));
+    opacity:0.5;
+    z-index:-1;
+  }
+  .jhid-head {
+    width:100%;
+    position:relative;
+    height:100px;
+  }
+  .jhid-circ {
+    position:relative;
+    width:150px;
+    height:150px;
+    position:absolute;
+    top:-100px;
+    left:139px;
+    border-radius:100%;
+    border:1px solid transparent;
+    border-left:1px solid #e7e7e7;
+    transform:rotate(-25deg);
+  }
+  .jhid-circ2 {
+    position:relative;
+    width:150px;
+    height:150px;
+    position:absolute;
+    top:-100px;
+    left:139px;
+    border-radius:100%;
+    border:1px solid transparent;
+    border-right:1px solid #e7e7e7;
+    transform:rotate(25deg);
+  }
+  .jhid-star {
+    position:absolute;
+    top:27px;
+    left:193px;
+  }
+  .jhid-star:after {
+    --unicode: '\e900';
+  }
+  .jhid-star:after {
+    content: var(--unicode);
+    display: block;
+    font-family: whim;
+    position: absolute;
+    font-size: 25px;
+    line-height: 25px;
+    padding: 10px;
+    color: #e7e7e7;
+  }
+  .jhid-star:before {
+    content:'';
+    display:block;
+    position:absolute;
+    top:45px;
+    left:22px;
+    width:1px;
+    height:15px;
+    background:#e7e7e7;
+  }
+  .jhid-circ:before {
+    content:'';
+    display:block;
+    width:100px;
+    height:0px;
+    border:1px solid transparent;
+    border-top:1px solid #e7e7e7;
+    position:absolute;
+    top:48px; left:-97px;
+    transform:rotate(25deg);
+  }
+  .jhid-circ:after {
+    content:'';
+    display:block;
+    width:70px;
+    height:0px;
+    border:1px solid transparent;
+    border-top:1px solid #e7e7e7;
+    position:absolute;
+    top:107px; left:-66px;
+    transform:rotate(-10deg);
+  }
+  .jhid-circ2:before {
+    content:'';
+    display:block;
+    width:100px;
+    height:0px;
+    border:1px solid transparent;
+    border-top:1px solid #e7e7e7;
+    position:absolute;
+    top:48px; right:-97px;
+    transform:rotate(-25deg);
+  }
+  .jhid-circ2:after {
+    content:'';
+    display:block;
+    width:70px;
+    height:0px;
+    border:1px solid transparent;
+    border-top:1px solid #e7e7e7;
+    position:absolute;
+    top:107px; right:-66px;
+    transform:rotate(10deg);
+  }
+  .jhid-icon {
+    font-size:30px;
+    color:#e7e7e7;
+    width:100%;
+    text-align:center;
+  }
+  .jhid-icon-c {
+    position:absolute;
+    top:-13px;
+    height:30px;
+    width:100px;
+    left:164.5px;
+    overflow:hidden;
+  }
+  .jhid-date {
+    font-family:'virgo delight';
+    font-size:15px;
+    text-align:center;
+    line-height:100%;
+    color:#e7e7e7;
+  }
+  .jhid-icon-in {
+    position:absolute;
+    top:0px; left:0px;
+    width:100%;
+    height:100%;
+    transition: all 0.5s ease-in-out;
+  }
+  .jhid-icon-c:hover .jhid-icon-in {
+    top:-30px;
+    transition: all 0.5s ease-in-out;
+  }
+  .jhid-ray {
+    position:absolute;
+  }
+  .jhid-ray:before {
+    content:'';
+    display:block;
+    position:absolute;
+    top:36px;
+    left:13px;
+    transform:rotate(-15deg);
+    width:140px;
+    height:0px;
+    border:1px solid transparent;
+    border-top:1px dashed #e7e7e7;
+  }
+  .jhid-ray:after {
+    content:'';
+    display:block;
+    position:absolute;
+    top:53px;
+    left:151px;
+    transform:rotate(-60deg);
+    width:30px;
+    height:0px;
+    border:1px solid transparent;
+    border-top:1px dashed #e7e7e7;
+  }
+  .jhid-ray2 {
+    position:absolute;
+  }
+  .jhid-ray2:before {
+    content:'';
+    display:block;
+    position:absolute;
+    top:36px;
+    left:275px;
+    transform:rotate(15deg);
+    width:140px;
+    height:0px;
+    border:1px solid transparent;
+    border-top:1px dashed #e7e7e7;
+  }
+  .jhid-ray2:after {
+    content:'';
+    display:block;
+    position:absolute;
+    top:53px;
+    left:248px;
+    transform:rotate(60deg);
+    width:30px;
+    height:0px;
+    border:1px solid transparent;
+    border-top:1px dashed #e7e7e7;
+  }
+  .jhid-rp {
+    z-index:1;
+    padding:50px 50px 40px 50px;
+    background:#e7e7e7;
+    border-radius:15px;
+    color:#666;
+    text-align:justify;
+    font-family:urbanist;
+    font-weight:400;
+    font-size:15px;
+    line-height:22px;
+    margin-top:5px;
+  }
+  .jhid-rp b {
+    font-weight:700;
+    color:var(--main-color);
+    background-color:var(--accent);
+    background: linear-gradient(to right, var(--main-color), var(--accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  .jhid-rp i {
+    color:var(--accent);
+  }
+  .jhid-rp u {
+    text-decoration:none;
+    border-bottom: 1px solid;
+    border-image: linear-gradient(to right, var(--main-color), var(--accent));
+    border-image-slice: 1;
+  }
+  .jhid-split {
+    position:relative;
+    display:flex;
+    align-items:center;
+    justify-items:center;
+    justify-content:center;
+    align-content:center;
+    margin:20px 0px 20px 0px;
+  }
+  .jhid-split-star:before {
+    --unicode: '\e900';
+  }
+  .jhid-split-star:before {
+    content:var(--unicode);
+    display:block;
+    font-family: whim;
+    margin:0px 10px;
+    font-size:20px;
+    color:var(--main-color);
+    background-color:var(--accent);
+    background: linear-gradient(to bottom, var(--main-color), var(--accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  .jhid-line {
+    width:100%;
+    height:0.5px;
+    background:#555;
+  }
+  .jhid-rp a {
+    font-weight:500;
+    color: #555;
+    border-bottom: 2px solid;
+    border-image: linear-gradient(to right, var(--main-color), var(--accent));
+    border-image-slice: 1;
+  }
+  .jhid-tag {
+    font-size:15px;
+    line-height:16px;
+    text-align:right;
+  }
+  .jhid-tag a {
+    position:relative;
+    font-weight:600;
+    text-transform:lowercase;
+    transition:all 0.5s ease-in-out;
+    border-bottom: none;
+    border-image: none;
+    border-image-slice: 0;
+  }
+  .jhid-tag a:before {
+    content:var(--unicode);
+    font-family: whim;
+    margin-right: 3px;
+    font-size:12px;
+    color:var(--main-color);
+    background-color:var(--accent);
+    background: linear-gradient(to bottom, var(--main-color), var(--accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  .jhid-tag .user-tagged:hover {
+    color:var(--main-color);
+    transition:all 0.5s ease-in-out;
+  }
+  .jhid-rp .dice-roll {
+    font-size:13px;
+    font-weight:600;
+  }
+  .jhid-rp .dice-roll b {
+    color:#555;
+    font-weight:700;
+    text-transform:uppercase;
+    -webkit-text-fill-color: #555;
+    border-bottom: 1px solid;
+    border-image: linear-gradient(to right, var(--main-color), var(--accent));
+    border-image-slice: 1;
+  }
+  .jhid-notes {
+    text-align:right;
+    font-size:13px;
+  }
