@@ -1,8 +1,15 @@
-
-  .emrys {
+  /* s s-mirror */
+  .em, .emrys {
     --main-color:#a08090;
     --accent:#7e9979;
     --img:url(https://www.daniellekaren.com/wp-content/uploads/2021/01/Dried-Herbs.png);
+  }
+  /* s s-sun */
+  .col,
+  .colin {
+    --main-color: #cf853a;
+    --accent: #8f4236;
+    --img: url(https://i.pinimg.com/736x/2e/83/78/2e837839c35fc678becce3660de8a071.jpg);
   }
   .jhid-c {
     font-family:whim, 'urbanist';
