@@ -11,6 +11,12 @@
     --accent: #8f4236;
     --img: url(https://i.pinimg.com/736x/2e/83/78/2e837839c35fc678becce3660de8a071.jpg);
   }
+  /* s s-feather */
+  .pascale {
+    --main-color: #bd9939;
+    --accent: #7aaabf;
+    --img: url(https://i.pinimg.com/736x/d2/0f/9f/d20f9f08279733a9fbb9c8ed64ac7e5e.jpg);
+  }
   .jhid-c {
     font-family:whim, 'urbanist';
     --unicode: '\e900';
