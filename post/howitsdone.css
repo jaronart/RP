@@ -23,6 +23,19 @@
     --accent: #59234e;
     --img: url(https://i.pinimg.com/736x/ec/1b/7e/ec1b7eff62d74c2d7eaf4be89fdb4855.jpg);
   }
+
+  /** s s-herb **/
+  .ryan {
+    --main-color: #729680;
+    --accent: #455e5c;
+    --img: url(https://i.pinimg.com/564x/dc/38/da/dc38da1a66561ab1fceec8b190da637b.jpg);
+  }
+  /** s s-hourglass **/
+  .bellamy {
+    --main-color: #42807d;
+    --accent: #735558;
+    --img: url(https://i.pinimg.com/1200x/ae/5a/f4/ae5af4d5dc9f4bc39c25c4f75f76c1d3.jpg);
+  }
   .jhid-c {
     font-family:whim, 'urbanist';
     --unicode: '\e900';
